@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+.app {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.small {
+  font-size: 14px;
+}
+
+.medium {
+  font-size: 18px;
+}
+
+.large {
+  font-size: 24px;
+}
+
+button {
+  margin: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
